@@ -14,7 +14,7 @@ public class CarServiceImp implements CarServise{
     private CarDAO carDAO;
 
     @Override
-    public List<Car> carList(Integer count) {
+    public List<Car> carList(int count) {
         return carDAO.carList(count);
     }
 

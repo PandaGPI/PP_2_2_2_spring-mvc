@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 @Repository
 public class CarDAOImp implements CarDAO{
     @Override
-    public List<Car> carList(Integer count) {
+    public List<Car> carList(int count) {
         List<Car> carList = new ArrayList<>();
         carList.add(new Car("F", 5, "black"));
         carList.add(new Car("S", 7, "green"));
